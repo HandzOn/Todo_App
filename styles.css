@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, serif;
+}
+
+div#app {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #673AB7;
+}
+
+div#app ul {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    list-style: circle ;
+}
+
+div#app ul li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+div#app button {
+    color: white;
+    background-color: #673AB7;
+    padding: 6px 12px;
+    border-color: #3f2281;
+    font-size: 1.2em;
+    border-radius: 7px;
+}
+
+div#app button:active {
+    background-color: #512DA8;
+}
+
+div#app input {
+    width: 10%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid #9575CD;
+}
+
+div#app input:focus {
+    outline-width: 0;
+    border: 2px solid #673AB7;
+}
+
+div#app ul li a {
+    color: #de2020;
+}
